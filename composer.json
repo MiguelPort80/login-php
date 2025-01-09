@@ -1,0 +1,22 @@
+{
+    "name": "miguel/site_com_slim",
+    "require": {
+        "slim/slim": "^4.14",
+        "league/plates": "^3.6",
+        "slim/psr7": "^1.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files":[
+            "src/Controllers/Controller.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Miguel"
+        }
+    ]
+}
